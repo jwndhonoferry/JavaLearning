@@ -1,0 +1,4 @@
+Jadi jika ingin merubah Hashmap, array ke JSON itu bisa menggunakan JSON Object atau GSON atau jackson
+
+Menggunakan Hashmap
+Perubahan terletak pada key. Hashmap memiliki urutan key yang acak sedangkan treemap dan Lhashmap berurutan.
