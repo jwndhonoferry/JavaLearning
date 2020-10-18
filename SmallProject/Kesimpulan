@@ -1,0 +1,23 @@
+Koneksi Java - PostgreSQL
+ - Menggunakan kelas interface Connection. Kelas interface dapat disbut sebagai kelas penghubung.
+ - Menggunakan library JDBC, JDBC bekerja secara efisien. Ketika connection pool dibuat maka hanya butuh 1 kali
+    deklarasi daripada membuat koneksi berkali - kali. Hal ini untuk menghindari leak memory atau
+    cache pada database. Berjalan pada background, tidak mempengaruhi code.
+    (https://www.progress.com/tutorials/jdbc/jdbc-jdbc-connection-pooling)
+ - Perlunya menutup koneksi connection.close(),  hal ini bertujuan untuk menghindari tumpukan koneksi.
+    Statement dan result dari query akan dihentikan koneksinya.
+   (https://stackoverflow.com/questions/25864235/why-we-should-close-the-connection-in-jdbc-if-we-dont-do-it-what-will-happen)
+ -
+
+query
+ - ILIKE, clausa ILIKE akan melakukan pengecekan dengan syarat kata case-insensitif, yang artinya tidak peduli
+   dengan besar atau kecilnya suatu huruf.
+ - CASE WHEN ... THEN ... END, clausa ini digunakan ketika terdapat beberapa case tertentu. Mirip dengan if else.
+ - EXTRACT, clausa ini digunakan untuk melakukan ekstraksi tipe data timestamp atau date, dengan beberapa parameter
+   ekstraksi yang ada, seperti 'day', 'year', 'century' dll.
+ - Create table as ....,  clausa ini digunakan untuk membuat sebuah tabel baru dengan
+
+ Kasih parameter buat sql querynya
+ https://stackoverflow.com/questions/15605107/how-can-i-use-parameters-in-a-messages-properties-file
+ https://www.geeksforgeeks.org/java-string-format-examples/
+
