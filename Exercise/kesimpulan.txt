@@ -1,0 +1,24 @@
+https://www.techiedelight.com/difference-between-hashmap-treemap-linkedhashmap-java/
+Hashmap
+- Memperbolehkan null value and key
+- Jika ada penambahan maka hashmap dan linkedHashmap akan menambahkan pada record terakhir
+kalau treemap akan menambahkan sesuai susunan key
+- hashmap tidak memperbolehkan key dan element yg sama
+
+Hashmap dan linkedhashmap akan menampilkan sesuai input, kalau treemap menampilkan sesuai
+urutan nilai dari input.
+
+Data Asli :
+Urutan :
+LinkedHashMap : {USA=Washington, United Kingdom=London, India=New Delhi}
+TreeMap : {India=New Delhi, USA=Washington, United Kingdom=London}
+HashMap : {United Kingdom=London, USA=Washington, India=New Delhi}
+
+- Performa
+Hashmap dan linkedHashmap lebih baik dibandingkan dengan treemap
+
+Hashmap datanya akan acak ketika dilakukan looping.
+Treemap datanya akan urut sesuai dengan awalan
+Linkedhashmap datanya akan sesuai dengan inputan
+
+
